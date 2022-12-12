@@ -7,11 +7,11 @@ while True:
     if z == 0:
         print("Thanks for playing")
         break
-    elif  z != x: 
+    elif z != x: 
         z = int(input("That number is incorrect. Guess again: "))
         y += 1
         continue
-    elif z == 0:
+    elif z == x:
         y += 1
         print(f"You got number {x} in {y} guess(es).")
         break
